@@ -24,3 +24,7 @@ commit: save changes
 
 3. Definition List
 HTML: Hypertext Markup Language that is used to create web pages
+
+- style
+- image tag 
+- block level and inline elements

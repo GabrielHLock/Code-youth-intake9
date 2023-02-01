@@ -28,3 +28,9 @@ HTML: Hypertext Markup Language that is used to create web pages
 - style
 - image tag 
 - block level and inline elements
+
+1/2/2023
+
+images as a hyperlink
+internal linking within a page
+tables: cellspacing, cellpadding, colspan, rowspan

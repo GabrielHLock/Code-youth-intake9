@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Registration Form</legend>
+        <!-- sup and sub text -->
+        <label for="fname">FirstName<sup>*</sup>: </label>
+        <!-- link for="name" with id="name" -->
+        <input type="text" name="funame" id="fname" maxlength="20" size="20" required/> <br><br>
+       <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"/> <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"/> <br><br>
+
+        <label for="email">Email<sup>*</sup>: </label>
+        <input type="email" name="email" id="email"/> <br><br>
+
+        <label for="dob">Date of Birth<sup>*</sup>: </label>
+        <input type="date" name="dob" id="dob"/> <br><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country" size="2">
+            <option>Canada</option>
+            <option>US</option>
+            <option>UK</option>
+            <option>India</option>
+            <option>Iraq</option>
+        </select>
+        <br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea rows="5" cols="10" placeholder="comments here..."></textarea> <br><br>
+
+        <label for="search">Search</label>
+        <input list="browser">
+        <datalist id="browser">
+            <option value="IE"></option>
+            <option value="Chrome"></option>
+            <option value="Safari"></option>
+        </datalist>
+        <br><br>
+
+        <label for="role">Please specify your role:</label>
+        <input type="radio" name="role" id="role" value="admin">Admin</input>
+        <input type="radio" name="role" id="role" value="enginner">Engineer</input> 
+        <input type="radio" name="role" id="role" value="manager">Manager</input> 
+        <input type="radio" name="role" id="role" value="guest">Guest</input> <br><br>
+
+        <label for="hobby">Hobbies:</label>
+        <input type="checkbox" name="hobby" value="drawing" id="hobby">Drawing</input>
+        <input type="checkbox" name="hobby" value="singing" id="hobby">Singing</input>
+        <input type="checkbox" name="hobby" value="dancing" id="hobby">Dancing</input>
+        <input type="checkbox" name="hobby" value="others" id="hobby">Others</input>
+
+        <label for="file">Upload a file:</label>
+        <!-- image/*,.pdf etc. to specify file type -->
+        <input type="file" name="file" id="file" accept="image/*"> 
+
+        <input type="submit" value="Register"/>
+        <input type="reset" value="Reset"/>
+        <input type="button" value="Click Me" onclick="alert('Thanks')">
+    </fieldset>
+    </form>
+</body>
+</html>

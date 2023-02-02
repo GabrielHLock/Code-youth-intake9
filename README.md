@@ -34,3 +34,8 @@ HTML: Hypertext Markup Language that is used to create web pages
 images as a hyperlink
 internal linking within a page
 tables: cellspacing, cellpadding, colspan, rowspan
+
+2/2/2023
+
+- Forms
+- attributed of form : method=get/post action (server file that will process form data)

@@ -39,3 +39,10 @@ tables: cellspacing, cellpadding, colspan, rowspan
 
 - Forms
 - attributed of form : method=get/post action (server file that will process form data)
+
+# media
+
+- mp3
+Ex: https://www.soundhelix.com/audio-examples
+
+-semantic elements

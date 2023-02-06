@@ -1,0 +1,22 @@
+body{
+    background-color: navajowhite;padding-left: 10%;padding-right: 10%;
+}
+#lorem{
+    background-color: yellowgreen;
+}
+#title{
+    text-align: center; color: azure;
+}
+.center>p{
+    text-align: center;padding-left: 20%;padding-right: 20%;
+    background-color: beige;
+}
+#good{
+	background-color: lightblue;
+}
+#evil{
+	background-color: darkred;
+}
+#college{
+	background-color: tan;
+}

@@ -46,3 +46,20 @@ tables: cellspacing, cellpadding, colspan, rowspan
 Ex: https://www.soundhelix.com/audio-examples
 
 -semantic elements
+
+# CSS
+Cascading Style Sheets
+h1- color:blue
+h1: color:red
+
+#head color:pink
+
+3 ways to include styles:
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+06/03/2023
+Ex10: quotation page with background color: light blue
+Quotation title-center, Dark blue
+Quotation1, 2- center,red, font -arial,background-pink

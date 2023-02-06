@@ -2,14 +2,20 @@ body{
 	background-color: cadetblue;
 }
 h1{
-	text-align: center;
 	color: darkblue;
 }
 p{
-	text-align: center;
 	color: red;
 	background-color: darkgray;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
-
+h1,p{
+	text-align: center;
+}
+ . is class # is id
+.center{
+    text-align: center;
+}
+#quote2{
+    color: blue;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+<style>
+body{
+    background-color: lightblue;
+}
+    #title{
+        text-align: left;color: darkblue;
+    }
+    .center{
+        text-align: center; font-family: Arial, Helvetica, sans-serif;
+    }
+    #apple{
+        color: red;
+    }
+    #pear{
+        color: greenyellow;
+    }
+    #orange{
+        color: orange;
+    }
+    #grape{
+        color: purple;
+    }
+    #child>p{
+        border: 1px solid;text-align: center;
+    }
+</style>
+    </head>
+    <body>
+        <h1 id="title">Fruit List</h1>
+    <ul class="center">
+        <li id="apple">apple</li>
+        <li id="pear">pear</li>
+        <li id="orange">orange</li>
+        <li id="grape">grape</li>
+    </ul>
+    <div id="child">
+        <p>Child of div </p>
+        Not a selected child (p tag) of div
+        <p>Second child of div </p>
+        <div>
+            <p>Grandchild of div</p>
+        </div>
+    </div>
+    </body>
+</html>

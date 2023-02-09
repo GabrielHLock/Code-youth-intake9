@@ -11,6 +11,10 @@ a{
     text-decoration: none;
     color: #5f6368;
 }
+hr{
+    color: #5f6368;
+    position: relative;
+}
 
 *{
     margin: 0;
@@ -55,9 +59,13 @@ input{
     display: flex;
     flex-direction: row;
 }
+textarea:focus, input:focus{
+    outline: none;
+}
 #rightinputicons{
     padding: 6px 10px;
     align-self: center;
+    color: #5f6368;
 }
 #category{
     display: flex;
@@ -65,6 +73,12 @@ input{
     margin: 10px 0 0 130px;
     padding: 10px 10px 0 0;
     gap: 15px;
+}
+#caticon{
+    float: left;
+    bottom: 0.8px;
+    color: #5f6368;
+    font-size: 1.1em;
 }
 
 main{
@@ -86,16 +100,16 @@ main{
             </div>
 
             <div id="category">
-                <a href="">All</a>
-                <a href="">Images</a>
-                <a href="">News</a>
-                <a href="">Videos</a>
-                <a href="">Books</a>
-                <a href="">More</a>
+                <span><span id="caticon" class="material-symbols-outlined">search</span><a href="">All</a></span>
+                <span><span id="caticon" class="material-symbols-outlined">image</span><a href="">Images</a></span>
+                <span><span id="caticon" class="material-symbols-outlined">article</span> <a href="">News</a></span>
+                <span><span id="caticon" class="material-symbols-outlined">slideshow</span><a href="">Videos</a></span>
+                <span><span id="caticon" class="material-symbols-outlined">book</span><a href="">Books</a></span>
+                <span><span id="caticon" class="material-symbols-outlined">more_vert</span><a href="">More</a></span>
                             </div>
 
         </header>
-        <hr>
+        <br><hr>
 
         <main>
 

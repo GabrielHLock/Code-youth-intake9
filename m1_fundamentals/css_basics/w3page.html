@@ -59,9 +59,10 @@ a{
 }
 #table1{
     border-spacing: 0;
-    width: 100%;
     display: table;
-    border: 0px solid #ccc;
+    box-sizing: inherit;
+    border: 0.5px solid #ccc;
+    border-collapse: collapse;
 }
 </style>
     </head>
@@ -142,9 +143,14 @@ a{
             <div id="table1">
             <table>
                 <tr style="background-color: #04AA6D;">
-                    <th style="color: #f1f1f1;">Company</th>
-                    <th style="color: #f1f1f1;">Contact</th>
-                    <th style="color: #f1f1f1;">Country</th>
+                    <td style="color: #f1f1f1;">Company</td>
+                    <td style="color: #f1f1f1;">Contact</td>
+                    <td style="color: #f1f1f1;">Country</td>
+                                    </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
                                     </tr>
             </table>
             </div>

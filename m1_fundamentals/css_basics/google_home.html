@@ -52,7 +52,11 @@ header{
     justify-content: right;
     width: 100%;
 }
-#toprightitem{
+#toprightitem1{
+    color: #202124;
+    padding-right: 10px;
+}
+#toprightitem2{
     color: #202124;
 }
 #withintopitems{
@@ -156,7 +160,7 @@ input{
     flex-direction: row;
     align-content: center;
 }
-.button1{
+.button1 a{
     display: flex;
     align-content: center;
     text-align: center;
@@ -165,9 +169,10 @@ input{
     color: #3c4043;
     border-radius: 4px;
     height: 36px;
+    margin-right: 10px;
     padding: 0 16px;
 }
-.button2{
+.button2 a{
     display: flex;
     align-content: center;
     text-align: center;
@@ -207,12 +212,47 @@ footer{
 }
 .bottomarea{
     display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    box-sizing: border-box;
     height: 100px;
     margin-top: auto;
-    background-color: lightgrey;
-    text-indent: 30px;
+    background-color: #f2f2f2;
 }
 #canada{
+    padding: 15px 30px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}
+.belowcanada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.belowcanadaspace{
+    padding: 0 20px;
+}
+.abh{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#abhtext{
+    color: #70757a;
+    font-size: 15px;
+}
+#abhtext{
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+
+.pts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -225,12 +265,12 @@ footer{
             <a class="topitem1" href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
             <div class="topitems">
                 <div id="withintopitems">
-                    <div id="rightitems">
-                        <a href="" id="toprightitem">Gmail</a>
-                        <a href="" id="toprightitem">Images</a>
-                    </div>
+                        <div id="rightitems">
+                            <a href="" id="toprightitem1">Gmail</a>
+                            <a href="" id="toprightitem2">Images</a>
+                        </div>
                     <a href=""><span id="topicons" class="material-symbols-outlined">apps</span></a>
-                    <span id="topicons" class="material-symbols-outlined">account_circle</span>
+                    <a href=""><span id="topicons" class="material-symbols-outlined">account_circle</span></a>
                 </div>
 
             </div>
@@ -285,9 +325,21 @@ footer{
 
         <footer>
             <div class="bottomarea">
-            <div class="abovebottomtext">
-                <span id="canada">placeholder_footer</span>
-            </div>
+                <div id="canada">Canada</div>
+                
+                <div class="belowcanada belowcanadaspace">
+                    <div class="abh">
+                        <a id="abhtext" href="">Advertising</a>
+                        <a id="abhtext" href="">Business</a>
+                        <a id="abhtext" href="">How Search works</a>
+                    </div>
+
+                    <div class="pts">
+                        <a id="abhtext" href="">Privacy</a>
+                        <a id="abhtext" href="">Terms</a>
+                        <a id="abhtext" href="">Settings</a>
+                    </div>
+                </div>
             </div>
         </footer>
         

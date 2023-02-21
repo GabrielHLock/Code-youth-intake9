@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let num1= 20;
+            let num2= 30;
+            let result;
+             result = num1 + num2;
+            console.log("sum is:", result);
+            result= num2-num1;
+            console.log("difference is:", result);
+
+            let length1= 40;
+            let width1= 90;
+            let recarea;
+            recarea = length1*width1;
+            function recareabutton(){
+                alert(recarea);
+            }
+
+            let cm1= 2.54;
+            let inch1= 20;
+            let inchconvert;
+            inchconvert = inch1*cm1;
+            function inchconvertbutton(){
+                alert(inchconvert);
+            }
+
+            let radius1= 40;
+            let pi1=3.14159265;
+            let squared1= radius1*radius1;
+            let area1;
+            area1 = pi1*squared1;
+            function area1button(){
+                alert(area1);
+            }
+
+            let firstnum=3;
+            let secondnum=9;
+            let thirdnum=6;
+            let fourthnum=2;
+            let addedavtotal;
+            addedavtotal = firstnum+secondnum+thirdnum+fourthnum;
+            let divav;
+            divav = addedavtotal/4;
+            function averagebutton(){
+                alert(divav);
+            }
+            console.log(divav);
+
+        </script>
+        <button onclick="recareabutton()">Area of rectangle with 40l and 90w</button>
+        <button onclick="inchconvertbutton()">Convert 20 inches to cm</button>
+        <button onclick="area1button()">Area of a circle with a radius of 40</button>
+        <button onclick="averagebutton()">The average of 3,9,6,2</button>
+    </body>
+</html>

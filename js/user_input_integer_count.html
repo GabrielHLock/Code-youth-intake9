@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var uvalue=[];
+            for (var i=0;i<=9;i++){
+               uvalue.push(prompt("Enter value"));
+            
+
+            function counter(uvalue) {
+                var counter = [0,0,0];
+                uvalue.forEach(function(a) {
+                    if (a>0)
+                        counter[0]++;
+                    else if (a<0)
+                        counter[1]++;
+                    else if (a==0)
+                        counter[2]++;
+                });
+                return counter;
+            }}
+
+            var result=counter(uvalue);
+            console.log("Number of Positives, Zeroes and Negatives are : " + result);
+            alert("Number of Positives, Negatives and Zeroes are : " + result);
+        </script>
+
+    </body>
+</html>

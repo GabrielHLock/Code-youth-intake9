@@ -63,3 +63,14 @@ h1: color:red
 Ex10: quotation page with background color: light blue
 Quotation title-center, Dark blue
 Quotation1, 2- center,red, font -arial,background-pink
+
+21/02/2023
+
+# loop 
+repeat a task/statement certain no. of times
+- for, while, do-while
+
+for(initilization;condition;updation){
+    //code to be executed
+}
+

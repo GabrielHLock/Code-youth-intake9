@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let count_p=0,count_cn=0,count_cz=0;
+            for(let i=1;i<=5;i++){
+                let number = parseInt(prompt("Enter a number"));
+                if(number>0){
+                    count_p++;
+                }
+                else if(number<0){
+                    count_cn++;
+                }
+                else{
+                    count_cz++;
+                }
+            }
+            console.log("Positive numbers : ",count_p);
+            console.log("Negative numbers : ",count_cn);
+            console.log("Zeroes : ",count_cz);
+        </script>
+
+    </body>
+</html>

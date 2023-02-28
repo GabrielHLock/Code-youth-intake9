@@ -38,3 +38,5 @@ console.log("First element",colors[0],"-","Fourth element:",colors[3]);
 console.log("colors array size",colors.length);
 console.log("last element", colors[colors.length-1])
 console.log("All array elements are:", colors);
+
+

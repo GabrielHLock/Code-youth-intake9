@@ -39,4 +39,16 @@ console.log("colors array size",colors.length);
 console.log("last element", colors[colors.length-1])
 console.log("All array elements are:", colors);
 
+// traversing array elements
+// 1. simple for loop
+for(let j=0;j<colors.length;j++){
+    console.log(colors[j]);
+}
 
+// for loop using of
+for(let ele of colors){
+    console.log(ele);
+}
+
+// forEach
+colors.forEach((item)=>console.log("foreach",item))
